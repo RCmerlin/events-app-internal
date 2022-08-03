@@ -1,4 +1,5 @@
 // Going to connect to MySQL database
+// Dummy comment
 const mariadb = require('mariadb');
 
 const HOST = process.env.DBHOST ? process.env.DBHOST : "localhost";
